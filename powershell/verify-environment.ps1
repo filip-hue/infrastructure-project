@@ -19,7 +19,7 @@ param(
     # Förväntade värden (ska matcha Terraform-variablerna)
     [string]$ExpectedName = "webbserver",
     [string]$ExpectedEnv  = "dev",
-    [int]$ExpectedPort    = 8080,
+    [int]$ExpectedPort    = 8081,
 
     # Loggfil
     [string]$LogFile = (Join-Path $PSScriptRoot "../logs/verify.log")
