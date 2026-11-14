@@ -21,5 +21,5 @@ variable "base_dir" {
 variable "port" {
   description = "Portnummer som skrivs in i app.json"
   type        = number
-  default     = 8080
+  default     = 8081
 }
